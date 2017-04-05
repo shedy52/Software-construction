@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+employee.hbm.xml
+ <?xml version='1.0' encoding='UTF-8'?>  
+    <!DOCTYPE hibernate-mapping PUBLIC  
+     "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+     "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+      
+     <hibernate-mapping>  
+      <class name="Employee" table="emp1000">  
+        <id name="id">  
+         <generator class="assigned"></generator>  
+        </id>  
+                
+        <property name="firstName"></property>  
+        <property name="lastName"></property>  
+                
+      </class>  
+                
+     </hibernate-mapping> 
+
+
+
+<root>
+    
+</root>
